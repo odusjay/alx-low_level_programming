@@ -1,9 +1,13 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
-/*more headers goes there*/
+/**
+ * main-assign a random number to the variable n each time it is excuted
+ * if the no is greater than 0:is possitve,if the number is0: is zero
+ * if the number is less than 0: is negative,followed by a new line
+ * return:0
+ */
 
-/*betty style doc for function main goes there*/
 int main(void)
 {
 int n;
