@@ -2,12 +2,9 @@
 #include<stdlib.h>
 #include<time.h>
 /**
- * main-assign a random number to the variable n each time it is excuted
- * if the no is greater than 0:is possitve,if the number is0: is zero
- * if the number is less than 0: is negative,followed by a new line
- * return:0
+ * main-assign a random number to the variable n
+ * Return: 0
  */
-
 int main(void)
 {
 	int n;
