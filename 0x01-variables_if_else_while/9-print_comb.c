@@ -9,22 +9,15 @@
 int main(void)
 {
 	int n1 = 48;
-	int n2;
-	int comb = 44;
-
+	int comb = 24;
 	while (n1 <= 57)
 	{
-	n2 = n1 + 1;
-	while (n2 <= 57)
-	{
 	putchar(n1);
-	putchar(n2);
-	if (n1 != 55 || n2 != 56)
+	if (n1 != 55)
 	{
 	putchar(comb);
+	putchar(30);
 	/** combination*/
-	}
-	n2 += 1;
 	}
 	n1 += 1;
 	}
