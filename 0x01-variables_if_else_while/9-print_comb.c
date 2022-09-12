@@ -22,7 +22,6 @@ int main(void)
 	if (n1 != 55 || n2 != 56)
 	{
 	putchar(comb);
-	putchar(32);
 	/** combination*/
 	}
 	n2 += 1;
