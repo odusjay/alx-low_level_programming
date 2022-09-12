@@ -11,22 +11,22 @@
 int main(void)
 {
 	int n;
-	int ln;
+	int lastn;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	ln = n % 10;
-	if (ln > 5)
+	lastn = n % 10;
+	if (lastn > 5)
 	{
-	printf("last digit of %d is %d and is greater than 5\n", n, ln);
+	printf("last digit of %d is %d and is greater than 5\n", n, lastn);
 	}
-	else if (ln == 0)
+	else if (lastn == 0)
 	{
-	printf("last digit of %d is %d and is 0\n", n, ln);
+	printf("last digit of %d is %d and is 0\n", n, lastn);
 	}
-	else if (ln < 6 && ln != 0)
+	else if (lastn < 6 && lastn != 0)
 	{
-	printf("last digit of %d is %d and is less 6 and not 0\n", n, ln);
+	printf("last digit of %d is %d and is less 6 and not 0\n", n, lastn);
 	}
 	return (0);
 }
