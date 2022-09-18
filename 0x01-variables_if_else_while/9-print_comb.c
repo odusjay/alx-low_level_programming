@@ -8,18 +8,19 @@
 
 int main(void)
 {
-	int n1 = 48;
-	int comb = 24;
-	while (n1 <= 57)
+	int j;
+
+	j = 48;
+	while (j < 58)
 	{
-	putchar(n1);
-	if (n1 != 55)
+	putchar(j);
+	if (j != 57)
 	{
-	putchar(comb);
-	putchar(30);
+	putchar(44);
+	putchar(32);
 	/** combination*/
 	}
-	n1 += 1;
+	j++;
 	}
 	putchar('\n');
 	return (0);
