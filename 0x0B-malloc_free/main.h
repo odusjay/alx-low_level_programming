@@ -19,7 +19,3 @@ char *argstostr(int ac, char **av);
 
 
 #endif
-
-Footer
-
-© 2022 GitHub
