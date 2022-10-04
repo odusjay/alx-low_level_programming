@@ -1,1 +1,1 @@
-static libraries task
+static libaries projects
